@@ -1,0 +1,18 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+import sys
+import pandas as pd
+import argparse
+
+parser = argparse.ArgumentParser(description='Convert a gene list into a bed file.')
+
+#文字列オプション
+parser.add_argument('input', type=str, help='a gene list file', )
+#数値 オプション
+parser.add_argument('-m','--mergin', type=int, help='mergin length', default=0)
+
+
+args = parser.parse_args()
+
+print(args.input)
