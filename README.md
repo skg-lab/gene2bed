@@ -1,5 +1,7 @@
 # gene2bed
 
+## merged into [skgGenomeTracks](https://github.com/skg-lab/skgGenomeTracks).
+
 ## installation
 
 ```
